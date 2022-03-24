@@ -14,7 +14,7 @@ def encrypt_file():
     head = "\n".join(content[0:2])
     content = "".join(content[2:]).split(" ")
     content = [int(b) for b in content if b != '']
-    print("chiffrage en cours, cela va prendre un moment...")
+    print("chiffrage en cours, cela va prendre un moment..")
     encrypted = Cipher.encrypt(content, password)
     print("chiffrage terminé !")
     s = open(destination, "w")
