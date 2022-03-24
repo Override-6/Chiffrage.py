@@ -1,4 +1,4 @@
-from tkinter import filedialog
+from tkinter import*
 
 from cipher import Cipher
 
